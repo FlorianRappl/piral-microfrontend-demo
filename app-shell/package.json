@@ -31,7 +31,7 @@
     "@types/react-router": "latest",
     "@types/react-router-dom": "latest",
     "piral-cli": "0.11.4",
-    "piral-cli-webpack": "0.5.2",
+    "piral-cli-webpack": "0.5.3",
     "typescript": "latest"
   },
   "typings": "lib/index.d.ts"

@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { PiletApi } from 'app-shell';
-import { ProductPage } from './ProductPage';
+
+const ProductPage = React.lazy(() => import('./ProductPage'));
 
 export function setup(app: PiletApi) {
   app.registerPage('/products/:name?', ({ history, match, piral }) => (

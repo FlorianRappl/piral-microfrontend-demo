@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { History } from 'history';
+import { Link } from 'react-router-dom';
 import { product } from './product';
 
 export interface ProductPageProps {
@@ -41,9 +42,12 @@ export const ProductPage: React.FC<ProductPageProps> = ({ name, history, BasketI
             </button>
           ))}
         </div>
+        <Link to="/">Test Link</Link>
         <BuyButton item={variant.sku} />
         <Recommendations item={variant.sku} />
       </>
     )
   );
 };
+
+export default ProductPage;

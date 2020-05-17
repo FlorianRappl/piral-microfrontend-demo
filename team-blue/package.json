@@ -14,7 +14,7 @@
     "@types/react-router-dom": "latest",
     "app-shell": "file:../app-shell/dist/develop/app-shell-1.0.0.tgz",
     "piral-cli": "0.11.4",
-    "piral-cli-webpack": "^0.5.2",
+    "piral-cli-webpack": "^0.5.3",
     "react": "*",
     "react-dom": "*",
     "react-router": "*",
